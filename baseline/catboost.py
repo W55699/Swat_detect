@@ -80,7 +80,7 @@ recall_cat = recall_score(y_test, np.argmax(y_pred_proba_cat, axis=1), average='
 f1_cat = f1_score(y_test, np.argmax(y_pred_proba_cat, axis=1), average='weighted')
 
 #Confusion Matrix
-conf_matrix = confusion_matrix(y_test, y_pred_proba_cat)
+conf_matrix = confusion_matrix(y_test, y_pred_cat)
 print("Confusion Matrix:")
 print(conf_matrix)
 
