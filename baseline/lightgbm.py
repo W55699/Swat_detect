@@ -10,7 +10,7 @@ import lightgbm as lgb
 import matplotlib.pyplot as plt
 
 # Step 1: Load data
-data = pd.read_csv("/kaggle/input/swat-new/SWaT_Dataset_Attack_v0_with_label_10s_and_binary_label.csv")
+data = pd.read_csv("./SWaT_Dataset_Attack_v0_with_label_10s_and_binary_label.csv")
 
 # Convert labels to numerical values
 label_encoder = LabelEncoder()
